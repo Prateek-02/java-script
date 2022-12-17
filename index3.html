@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="maindivid" class="maindivclass">
+      <h1 id="heading">Events and Handlers</h1>
+      <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex beatae laborum corrupti? Optio doloribus blanditiis porro assumenda esse quod sit ad alias iste? Laborum voluptates excepturi architecto quisquam ex non magnam perspiciatis libero quaerat debitis eveniet dicta amet sit, quibusdam, tempora quae sed, sequi saepe explicabo. Fugiat, adipisci perferendis?</p>
+      <input id="btn" type="button" value="submit" >
+
+    </div>
+    <script>
+        let paragraph = document.getElementById("para");
+        let button = document.getElementById("btn");
+
+        paragraph.addEventListener('mouseout',function test(){
+            console.log("mouse is out of the paragraph")
+        })
+        //let main =  document.getElementById("maindivid");
+        //console.log(main);
+
+        //button.onclick = function toggepara(){
+        //    if(paragraph.style.display != "none"){
+        //        paragraph.style.display = "none"
+        //    }
+        //    else{
+        //        paragraph.style.display = "block"
+        //    }   
+        //}
+
+        //button.onclick =  function countnumber(){
+        //    for(let i = 1; i <= 10; i++){
+        //        console.log(i);
+        //    }
+        //}
+    </script>
+</body>
+</html>
